@@ -43,6 +43,31 @@ npm run dev
 npm start
 ```
 
+### 4. Deploying to Google Cloud Run
+Cloud Run will build your Dockerfile automatically when you connect the
+GitHub repo and enable Cloud Build triggers. Ensure you have a `Dockerfile`
+(and `.dockerignore`) at the repo root (this project uses the one included
+with the source).
+
+A sample `cloudbuild.yaml` is provided which builds the image,
+pushes it to Container Registry, and deploys the service. Environment
+variables are supplied via the `--set-env-vars` flag or using Secret Manager.
+
+Example manual deploy command:
+```bash
+# set variables in your shell or use Secret Manager substitutions
+gcloud run deploy mailmind-backend \
+    --image gcr.io/$PROJECT_ID/mailmind-backend \
+    --region us-central1 \
+    --platform managed \
+    --allow-unauthenticated \
+    --set-env-vars "PORT=8080,JWT_SECRET=$JWT_SECRET,ANTHROPIC_API_KEY=$ANTHROPIC_API_KEY,GEMINI_API_KEY=$GEMINI_API_KEY,GOOGLE_CLIENT_ID=$GOOGLE_CLIENT_ID,GOOGLE_CLIENT_SECRET=$GOOGLE_CLIENT_SECRET,GOOGLE_REDIRECT_URI=$GOOGLE_REDIRECT_URI,ALLOWED_ORIGINS=$ALLOWED_ORIGINS,DATABASE_URL=$DATABASE_URL"
+```
+
+Once deployed, Cloud Run will automatically restart the service whenever you
+push to the configured branch (e.g. `main`).
+
+
 ## Database & Embeddings
 
 A new `email_vectors` table holds embeddings for RAG search.  It's defined

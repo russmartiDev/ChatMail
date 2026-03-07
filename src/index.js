@@ -15,7 +15,7 @@ const chatRoutes = require('./routes/chat');
 const { sequelize } = require('./config/database');
 
 const app = express();
-const PORT = process.env.PORT ?? 3000;
+const PORT = process.env.PORT ?? 8080;
 
 // Sync DB (alter:true will apply model changes such as the new
 // "email_vectors" table; in production you may wish to run migrations
