@@ -12,6 +12,27 @@ steps:
   - name: 'gcr.io/cloud-builders/docker'
     args: ['push', 'gcr.io/$PROJECT_ID/mailmind-backend']
 
+  # optional: verify required substitutions are set (fails build if any missing)
+  - name: 'gcr.io/cloud-builders/gcloud'
+    entrypoint: 'bash'
+    args:
+      - '-c'
+      - |
+          # Only run checks when running from a trigger that supplies substitutions
+          missing=0
+          for v in JWT_SECRET ANTHROPIC_API_KEY GEMINI_API_KEY GOOGLE_CLIENT_ID GOOGLE_CLIENT_SECRET GOOGLE_REDIRECT_URI ALLOWED_ORIGINS DATABASE_URL; do
+            # Cloud Build substitutions are available as ${_VARNAME}
+            val=$(eval echo \"\${_$v}\")
+            if [[ -z "$val" ]]; then
+              echo "⚠ substitution $v is not set" >&2
+              missing=1
+            fi
+          done
+          if [[ $missing -eq 1 ]]; then
+            echo "One or more required substitutions were missing; skipping deploy." >&2
+            exit 1
+          fi
+
   # deploy to Cloud Run
   - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
     entrypoint: gcloud

@@ -144,6 +144,40 @@ Mobile App
                      └── returns categorized batch
 ```
 
+## Troubleshooting
+
+### Container fails to start on Cloud Run
+If your revision stalls with a message like:
+
+> The user-provided container failed to start and listen on the port defined
+> provided by the PORT=8080 environment variable within the allocated timeout.
+
+it usually means the process crashed before calling `app.listen()`.
+
+Common causes:
+
+1. **Missing required environment variables.**
+   - The server now validates its configuration on startup and will print
+     `✖ missing required environment variable: NAME` then exit.
+   - Check your Cloud Run service settings or your Cloud Build trigger
+     substitutions and make sure you’ve supplied `DATABASE_URL`,
+     `JWT_SECRET`, API keys, etc.
+   - You can view logs with `gcloud run logs read mailmind-backend --region us-central1`
+     or via the Cloud Console.
+
+2. **Port configuration.**
+   - Cloud Run sets `PORT=8080`. The app respects this value and falls back to
+     8080 if it isn’t set (development default is 3000).
+   - No changes are required in most cases; just ensure your Dockerfile exposes
+     8080 (the provided Dockerfile does).
+
+3. **Health-check timeout.**
+   - By default Cloud Run allows 4 minutes; you can extend it with
+     `--timeout` on `gcloud run deploy` if your startup takes longer.
+
+After resolving the configuration issue, deploy again – the container should
+start normally and listen on the correct port.
+
 ## Testing with curl
 
 ```bash

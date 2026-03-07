@@ -15,7 +15,26 @@ const chatRoutes = require('./routes/chat');
 const { sequelize } = require('./config/database');
 
 const app = express();
+// Cloud Run provides PORT; fall back to 8080 for local container tests
 const PORT = process.env.PORT ?? 8080;
+
+// ---------- required-environment check -----------------
+const requiredEnv = [
+  'JWT_SECRET',
+  'ANTHROPIC_API_KEY',
+  'GEMINI_API_KEY',
+  'GOOGLE_CLIENT_ID',
+  'GOOGLE_CLIENT_SECRET',
+  'GOOGLE_REDIRECT_URI',
+  'DATABASE_URL',
+];
+for (const v of requiredEnv) {
+  if (!process.env[v]) {
+    console.error(`✖ missing required environment variable: ${v}`);
+    // exit with non‑zero so Cloud Run clearly logs failure
+    process.exit(1);
+  }
+}
 
 // Sync DB (alter:true will apply model changes such as the new
 // "email_vectors" table; in production you may wish to run migrations
