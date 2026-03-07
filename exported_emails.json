@@ -1,0 +1,446 @@
+[
+  {
+    "id": "19cc50745c94eabe",
+    "title": "Message",
+    "description": "Follow-up on a discussion about connecting store emails to a database. Request for Cedie to provide ongoing updates on developments. Concern raised regarding email security and restricting access",
+    "image_url": "",
+    "external_url": "",
+    "metadata": [
+      {
+        "name": "subject",
+        "value": "Re: How do we connect a store email to database?"
+      },
+      {
+        "name": "body",
+        "value": "Chatted here. Cedie, please keep me posted on developments. Also, about security of certain emails and restricting access as a result. Jake Allain Chief Operating Officer State & Liberty Clothing Co. stateandliberty.com  Sent via Superhuman"
+      },
+      {
+        "name": "sender",
+        "value": "Jake Allain <jake@stateandliberty.com>"
+      },
+      {
+        "name": "recipient",
+        "value": "Cedie Garcia <cedie@stateandliberty.com>"
+      },
+      {
+        "name": "received_at",
+        "value": "2026-03-06T21:21:51.000Z"
+      },
+      {
+        "name": "category",
+        "value": "action"
+      },
+      {
+        "name": "urgency_score",
+        "value": "5"
+      }
+    ]
+  },
+  {
+    "id": "19cc430ec778f6e3",
+    "title": "Message",
+    "description": "High priority bug report submitted (Ticket 00138). Users are encountering an error when trying to save gear. Reported by Grant Kiefaber via Support Center",
+    "image_url": "",
+    "external_url": "",
+    "metadata": [
+      {
+        "name": "subject",
+        "value": "[Ticket 00138] Not able to select OTR Tux"
+      },
+      {
+        "name": "body",
+        "value": "Ticket Submitted Ticket ID 00138 Type Bug Report Priority High Submitted by Grant Kiefaber When we try and save gear we get an error. This is an automated notification from Support Center. Open Project Issue Management"
+      },
+      {
+        "name": "sender",
+        "value": "retool@stateandliberty.com"
+      },
+      {
+        "name": "recipient",
+        "value": "grant@stateandliberty.com, cedie@stateandliberty.com"
+      },
+      {
+        "name": "received_at",
+        "value": "2026-03-06T17:27:44.000Z"
+      },
+      {
+        "name": "category",
+        "value": "urgent"
+      },
+      {
+        "name": "urgency_score",
+        "value": "8"
+      }
+    ]
+  },
+  {
+    "id": "19cc3cec5c0de41e",
+    "title": "Message",
+    "description": "A new sign-in was detected on a Windows device for russell@stateandliberty.com. No action is required if the sign-in was performed by the user. Security steps are recommended if the sign-in was unauthorized",
+    "image_url": "",
+    "external_url": "",
+    "metadata": [
+      {
+        "name": "subject",
+        "value": "Security alert"
+      },
+      {
+        "name": "body",
+        "value": "[image: Google] A new sign-in on Windows russell@stateandliberty.com We noticed a new sign-in to your Google Account on a Windows device. If this was you, you don’t need to do anything. If not, we’ll help you secure your account. Check activity You can also see security activity at  You received this email to let you know about important changes to your Google Account and services. 2026 Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA"
+      },
+      {
+        "name": "sender",
+        "value": "Google <no-reply@accounts.google.com>"
+      },
+      {
+        "name": "recipient",
+        "value": "russell@stateandliberty.com"
+      },
+      {
+        "name": "received_at",
+        "value": "2026-03-06T15:40:31.000Z"
+      },
+      {
+        "name": "category",
+        "value": "urgent"
+      },
+      {
+        "name": "urgency_score",
+        "value": "9"
+      }
+    ]
+  },
+  {
+    "id": "1479757255514652773",
+    "title": "Message",
+    "description": "Informal check-in from pierresilog. Sent via or regarding Discord. General inquiry about well-being",
+    "image_url": "",
+    "external_url": "",
+    "metadata": [
+      {
+        "name": "subject",
+        "value": "Discord: how's it going?..."
+      },
+      {
+        "name": "body",
+        "value": "how's it going?"
+      },
+      {
+        "name": "sender",
+        "value": "pierresilog"
+      },
+      {
+        "name": "recipient",
+        "value": "general"
+      },
+      {
+        "name": "received_at",
+        "value": "2026-03-07T08:27:02.275Z"
+      },
+      {
+        "name": "category",
+        "value": "social"
+      },
+      {
+        "name": "urgency_score",
+        "value": "2"
+      }
+    ]
+  },
+  {
+    "id": "1479757218654982144",
+    "title": "Message",
+    "description": "The sender is testing the email connection or notification system.. The content consists only of the word 'test'.",
+    "image_url": "",
+    "external_url": "",
+    "metadata": [
+      {
+        "name": "subject",
+        "value": "Discord: test..."
+      },
+      {
+        "name": "body",
+        "value": "test"
+      },
+      {
+        "name": "sender",
+        "value": "pierresilog"
+      },
+      {
+        "name": "recipient",
+        "value": "general"
+      },
+      {
+        "name": "received_at",
+        "value": "2026-03-07T08:26:53.487Z"
+      },
+      {
+        "name": "category",
+        "value": "info"
+      },
+      {
+        "name": "urgency_score",
+        "value": "1"
+      }
+    ]
+  },
+  {
+    "id": "19cc89661f9c4faa",
+    "title": "Message",
+    "description": "High priority bug report (Ticket 00139) submitted by Grant Kiefaber.. Data for '08/07/2026 - Jacob Dobberstein Wedding' is failing to push to HubSpot.. Immediate investigation into the sync issue is requested.",
+    "image_url": "",
+    "external_url": "",
+    "metadata": [
+      {
+        "name": "subject",
+        "value": "[Ticket 00139]  08/07/2026 - Jacob Dobberstein Wedding"
+      },
+      {
+        "name": "body",
+        "value": "Ticket Submitted Ticket ID 00139 Type Bug Report Priority High Submitted by Grant Kiefaber 08/07/2026 - Jacob Dobberstein Wedding is not pushing to Hubspot. Can we look at this? This is an automated notification from Support Center. Open Project Issue Management"
+      },
+      {
+        "name": "sender",
+        "value": "retool@stateandliberty.com"
+      },
+      {
+        "name": "recipient",
+        "value": "grant@stateandliberty.com, cedie@stateandliberty.com"
+      },
+      {
+        "name": "received_at",
+        "value": "2026-03-07T13:57:03.000Z"
+      },
+      {
+        "name": "category",
+        "value": "urgent"
+      },
+      {
+        "name": "urgency_score",
+        "value": "8"
+      }
+    ]
+  },
+  {
+    "id": "19cc3aef9ac8aceb",
+    "title": "Message",
+    "description": "Order #1383073 has been delivered via FedEx.. A 15-day window is provided to report fit issues for adjustments or alterations.. Feedback is requested to save measurements for future orders.",
+    "image_url": "",
+    "external_url": "",
+    "metadata": [
+      {
+        "name": "subject",
+        "value": "Order #1383073: Your Gear Has Arrived - Try It On Immediately"
+      },
+      {
+        "name": "body",
+        "value": "Order #1383073 Has Arrived Hello Joe, Your Made-To-Measure gear has just delivered. You can track your package here: [399160279696]( What to Do Next: - Try On Your Gear: Reminder to use our [Try-On Tips & Tricks Guide]( to check how to properly check the fit of your gear with the proper try-on attire. - Share Your Feedback: Let us know how your gear fits within 15 days so we can assist with any adjustments or alterations, and so we can save your specs for your future orders. [Perfect Fit - No Changes Needed]( [Need Help with Your Fit?]( Ensuring you're satisfied with the fit of your gear is our top priority. If we don't hear from you, we'll check in again soon, but we'd love for you to let us know how your items fit using the above buttons. If you have any questions, please just reply to this email. The S&L Sizing Specialists [stateandliberty.com]( State & Liberty Clothing Company No longer want to receive these emails? [Unsubscribe]( 772 Airport Blvd., Ste #1, Ann Arbor, MI 48108 Copyright 2026"
+      },
+      {
+        "name": "sender",
+        "value": "\"State & Liberty Clothing Company\" <support@stateandliberty.com>"
+      },
+      {
+        "name": "recipient",
+        "value": "Cole Garcia <russell@stateandliberty.com>"
+      },
+      {
+        "name": "received_at",
+        "value": "2026-03-06T15:05:49.000Z"
+      },
+      {
+        "name": "category",
+        "value": "action"
+      },
+      {
+        "name": "urgency_score",
+        "value": "4"
+      }
+    ]
+  },
+  {
+    "id": "19cc3aef8a23058e",
+    "title": "Message",
+    "description": "Order #1373285 of Made-To-Measure gear has been delivered.. The recipient is requested to try on the gear immediately using the provided guide.. Feedback on the fit is required within 15 days to assist with adjustments or save sizing specs.",
+    "image_url": "",
+    "external_url": "",
+    "metadata": [
+      {
+        "name": "subject",
+        "value": "Order #1373285: Your Gear Has Arrived - Try It On Immediately"
+      },
+      {
+        "name": "body",
+        "value": "Order #1373285 Has Arrived Hello Robbie, Your Made-To-Measure gear has just delivered. You can track your package here: [399165625048]( What to Do Next: - Try On Your Gear: Reminder to use our [Try-On Tips & Tricks Guide]( to check how to properly check the fit of your gear with the proper try-on attire. - Share Your Feedback: Let us know how your gear fits within 15 days so we can assist with any adjustments or alterations, and so we can save your specs for your future orders. [Perfect Fit - No Changes Needed]( [Need Help with Your Fit?]( Ensuring you're satisfied with the fit of your gear is our top priority. If we don't hear from you, we'll check in again soon, but we'd love for you to let us know how your items fit using the above buttons. If you have any questions, please just reply to this email. The S&L Sizing Specialists [stateandliberty.com]( State & Liberty Clothing Company No longer want to receive these emails? [Unsubscribe]( 772 Airport Blvd., Ste #1, Ann Arbor, MI 48108 Copyright 2026"
+      },
+      {
+        "name": "sender",
+        "value": "\"State & Liberty Clothing Company\" <support@stateandliberty.com>"
+      },
+      {
+        "name": "recipient",
+        "value": "Cole Garcia <russell@stateandliberty.com>"
+      },
+      {
+        "name": "received_at",
+        "value": "2026-03-06T15:05:49.000Z"
+      },
+      {
+        "name": "category",
+        "value": "action"
+      },
+      {
+        "name": "urgency_score",
+        "value": "4"
+      }
+    ]
+  },
+  {
+    "id": "19cc3ae00145cbb8",
+    "title": "Message",
+    "description": "Order #1382233 is ready for pickup at the Ann Arbor store location. The pickup deadline is March 20, 2026. Customers are encouraged to schedule a fitting appointment online. Free domestic shipping is available if pickup is not possible by the deadline",
+    "image_url": "",
+    "external_url": "",
+    "metadata": [
+      {
+        "name": "subject",
+        "value": "Your Order #1382233 is Ready for Pickup!"
+      },
+      {
+        "name": "body",
+        "value": "YOUR ORDER IS READY FOR PICK UP Hello Brandon, We’re excited to let you know that your order #1382233 is now ready for pickup at our Ann Arbor location. The pick up details for your item(s) are below: - Store Location: 212 South Main Street, Ann Arbor, MI 48104 - Pick Up By: March 20, 2026 Although not required, we highly encourage you to [schedule a fitting time with us here]( This way, we can ensure we have a dedicated team member to assist you as you try on your new gear. Important Note: If you cannot make it into our store by March 20, 2026, please let us know immediately and we will ship your items to your domestic address of choice at no additional charge. If you have any questions or concerns, please do not hesitate to let us know by replying to this email. We’re looking forward to seeing you soon. State and Liberty Team [stateandliberty.com]( State & Liberty Clothing Company No longer want to receive these emails? [Unsubscribe]( 772 Airport Blvd., Ste #1, Ann Arbor, MI 48108 Copyright 2026"
+      },
+      {
+        "name": "sender",
+        "value": "\"State & Liberty Clothing Company\" <support@stateandliberty.com>"
+      },
+      {
+        "name": "recipient",
+        "value": "Darius Garcia <russell@stateandliberty.com>"
+      },
+      {
+        "name": "received_at",
+        "value": "2026-03-06T15:04:46.000Z"
+      },
+      {
+        "name": "category",
+        "value": "info"
+      },
+      {
+        "name": "urgency_score",
+        "value": "4"
+      }
+    ]
+  },
+  {
+    "id": "19cc39ac2a447a3a",
+    "title": "Message",
+    "description": "Updates were provided on contact details forms, HubSpot workflows, and database mapping.. The garment review feature logic was refined, including bypass protocols for submissions.. Technical discussions occurred regarding AI email script cleanup and increasing component timeouts to five minutes.. A series of specific tasks were assigned to Evan Ralph Vale and Cedie Garcia for the following week.",
+    "image_url": "",
+    "external_url": "",
+    "metadata": [
+      {
+        "name": "subject",
+        "value": "Notes: “Daily Updates” Mar 6, 2026"
+      },
+      {
+        "name": "body",
+        "value": "Notes from “Daily Updates” These notes have been sent to invited guests in your organization. Open meeting notes The content was auto-generated on March 6, 2026, 10:42 PM PST and may contain errors. Summary Jay Gregorio provided an update on the contact details form and the batch removal of association contact details, which Cedie Garcia confirmed was related to the email list, while Cedie Garcia also outlined the need to trigger HubSpot workflows and discussed updates to fabric selection, database mapping, and API updates for auto-updating values. Enrick Mirador updated the team on the garment review feature, including logic for bypassing picture submissions and thread reports, and was tasked by Cedie Garcia with preparing a table for testing database queries related to fabric mapping. Evan Ralph Vale reported on AI email script cleanup and discussed increasing the component timeout to five minutes due to current insufficiency, and Russell Martinez confirmed a timeout error when upgrading the model. The team confirmed the logic for the \"Confirm Submit\" button flow, discussed an AI agent application for bug tracking, and debated a presentation pitch template focused on Invis AI. Suggested next steps Evan Ralph Vale will finish the session guide starting Monday. Evan Ralph Vale will provide the necessary credentials for the email script tracking and other emails. Cedie Garcia will prepare the table test database and base query source. Cedie Garcia will update the custom component related to weddings and send it to Anderson James next week. Cedie Garcia will handle the grouping and the addition of a price disclaimer next week. Meeting records Document Notes by Gemini Is the Next Steps section in this email helpful? Not Useful Email Useful Email Google LLC, 1600 Ampitheatre Parkway, Mountain View, CA 94043, USA You have received this email because meeting artifacts were initiated in Google Meet."
+      },
+      {
+        "name": "sender",
+        "value": "Gemini <gemini-notes@google.com>"
+      },
+      {
+        "name": "recipient",
+        "value": "russell@stateandliberty.com"
+      },
+      {
+        "name": "received_at",
+        "value": "2026-03-06T14:43:45.000Z"
+      },
+      {
+        "name": "category",
+        "value": "action"
+      },
+      {
+        "name": "urgency_score",
+        "value": "4"
+      }
+    ]
+  },
+  {
+    "id": "19cc366a3f4a515e",
+    "title": "Message",
+    "description": "Identifies 11 habits of a healthy lifestyle focusing on education, environment, and consistency.. Emphasizes the importance of protein intake, strength training, and tracking metrics like steps and calories.. Advocates for prioritizing sleep and intentional stress management through activities like walking or journaling.",
+    "image_url": "",
+    "external_url": "",
+    "metadata": [
+      {
+        "name": "subject",
+        "value": "S&L ST Roundup: 11 Things The Healthiest Version of You Would Do"
+      },
+      {
+        "name": "body",
+        "value": "Good Morning Team, And Happy Daylight Saving weekend. *God knows we don't need another hour of sleep taken away but hey, we're in this together. * Anyways. Today is as good a day as any to reflect on the health choices we’re making. To do that, I like to ask a simple question: *What would the healthiest version of me actually do?* I like this question because when you think about it, the only real difference between you and the healthiest version of you *is the things you do.* So without further ado, here are 11 things that version of you would do: 1. You'd actively try to learn about health. You don't know what you don't know. Podcasts. Books. Following the right people on social media. This email is a great start. Are you going to remember everything? God no. But will little things start to resonate and stick? You tell me. 2. You'd make doing healthy things easier for yourself. In other words, you'd set up your environment for success. There are a million and one ways to do this: - No processed food in the house - Healthy snacks in the fridge - Workout clothes out the night before - A bottle of water nearby at all times Willpower doesn’t always cut it. Do your future self a favor and make it easier to make the right choice. 3. You'd track things. Protein. Steps. Calories. Caffeine intake. Body composition. Hours of sleep. Progress in the weightroom. Bloodwork. Water intake. All of them at once? Shit no. Start small and pick something to focus on. Tracking means awareness, and awareness leads to behavior change. 4. You'd eat the same meals often. *Boring! * Maybe. But only if you aren't creative. Having a consistent high-protein breakfast and 3-4 healthy lunches that you enjoy eating — and don’t mind cooking or prepping — will get you FAR in this game. Don't overcomplicate it. 5. You'd plan and prepare your meals ahead of time. Do you think you could be lean and healthy if you had a personal health chef — a PHC if you will — that cooked every single one of your meals? Of course you could. Healthy people are their own PHC. You have time, you just have to prioritize it. 6. You'd strength train. It's not about how you look. It’s about: - Your mood - Your confidence - Your strength - Your immune system - Your mental health - Your posture - Your bone health - Your metabolism - Your energy levels - Your vitality Imagine living a life where all of these things are great... all the time? 7. You'd sleep like your life depends on it. Because it does. Everything in life, and I mean EVERYTHING, is better after a good night of sleep. Pay attention to it. Prioritize it. And don’t trade it for another episode of *Bridgerton. * 8. You'd prioritize protein every day. If you are new here, this is the first time I've ever mentioned protein. Getting enough protein is essential for: - Muscle growth and repair - Metabolic health - Fat loss - Preventing muscle loss with fat loss - Preventing muscle loss with age - Immune system regulation - Hormone balance 1 gram of protein per pound of target body weight. Get damn used to asking, *\"How much protein does this have?\" * 9. You'd walk a lot more than you need to. The healthiest version of you would gamify movement in everyday life and view walking as exercise. So take the stairs, park far away, and go for walks throughout the day. It may not always feel like it, but it's doing wonders for your health. 10. You'd manage stress intentionally. Walks. Journaling sessions. Workouts. Cold plunges. Sauna sessions. Jiu jitsu. Playing the guitar. PIckup soccer. This comes in many forms. Anything that keeps you present and"
+      },
+      {
+        "name": "sender",
+        "value": "Brian Ward <brian@stateandliberty.com>"
+      },
+      {
+        "name": "recipient",
+        "value": "Brian Ward <brian@stateandliberty.com>"
+      },
+      {
+        "name": "received_at",
+        "value": "2026-03-06T13:46:37.000Z"
+      },
+      {
+        "name": "category",
+        "value": "newsletter"
+      },
+      {
+        "name": "urgency_score",
+        "value": "1"
+      }
+    ]
+  },
+  {
+    "id": "19cc355cdb650b43",
+    "title": "Message",
+    "description": "The AI Workflow Developer interview scheduled for March 6, 2026, has been canceled.. The event has been automatically removed from the Google Calendar.. The interview was originally scheduled between Ahmad Arceo, Cedie Garcia, and Russell Martinez.",
+    "image_url": "",
+    "external_url": "",
+    "metadata": [
+      {
+        "name": "subject",
+        "value": "Canceled event: Ahmad Arceo - AI Workflow Developer Interview @ Fri Mar 6, 2026 10:30pm - 11pm (GMT+8) (Russell Martinez)"
+      },
+      {
+        "name": "body",
+        "value": "This event has been canceled and removed from your calendar. Ahmad Arceo - AI Workflow Developer Interview Friday Mar 6, 2026 ⋅ 10:30pm – 11pm Philippine Standard Time Join with Google Meet  Join by phone (US) +1 504-613-6678 PIN: 219572088 More phone numbers  This meeting will be recorded by Loom.Set up meeting notesManage your meeting recording settings Organizer Cedie Garcia cedie@stateandliberty.com Guests Cedie Garcia - organizer Russell Martinez ahmadarceo@gmail.com Jay Gregorio ~~//~~ Invitation from Google Calendar:  You are receiving this email because you are subscribed to calendar notifications. To stop receiving these emails, go to  select this calendar, and change \"Other notifications\". Forwarding this invitation could allow any recipient to send a response to the organizer, be added to the guest list, invite others regardless of their own invitation status, or modify your RSVP. Learn more"
+      },
+      {
+        "name": "sender",
+        "value": "Cedie Garcia <cedie@stateandliberty.com>"
+      },
+      {
+        "name": "recipient",
+        "value": "Russell Martinez <russell@stateandliberty.com>"
+      },
+      {
+        "name": "received_at",
+        "value": "2026-03-06T13:28:25.000Z"
+      },
+      {
+        "name": "category",
+        "value": "event"
+      },
+      {
+        "name": "urgency_score",
+        "value": "5"
+      }
+    ]
+  }
+]
