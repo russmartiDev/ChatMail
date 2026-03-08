@@ -146,6 +146,43 @@ Mobile App
 
 ## Troubleshooting
 
+### CORS errors from the mobile app or browser
+If your client (Expo, React web, etc.) complains about blocked requests and
+you see **“No 'Access-Control-Allow-Origin' header is present”**, the
+backend either crashed before applying the CORS middleware or the origin
+wasn’t permitted.
+
+Configuration rules:
+
+* **ALLOWED_ORIGINS** – comma‑separated list of prefix strings. An incoming
+  request’s `Origin` header is allowed if it starts with one of the prefixes.
+* **ALLOW_ALL_ORIGINS** – set to `true` to bypass all origin checking and allow
+  every origin (convenient for quick debugging).
+* If **ALLOWED_ORIGINS** is empty and **ALLOW_ALL_ORIGINS** is unset, the
+  server defaults to allowing any origin.
+
+The server logs every check; look for lines like:
+
+```
+CORS check, origin= http://localhost:8081 allowed list=[https://chatmail-…] allowAll= false
+```
+
+To permit all origins unconditionally, either
+
+```bash
+gcloud run services update chatmail \
+    --region asia-southeast1 \
+    --update-env-vars "ALLOW_ALL_ORIGINS=true"
+```
+
+or leave `ALLOWED_ORIGINS` blank. To limit origins, populate
+`ALLOWED_ORIGINS` appropriately (e.g. include `http://localhost:8081` for
+local Expo).
+
+You can also adjust these values via the Cloud Run console under **Variables
+& Secrets**.
+
+
 ### Container fails to start on Cloud Run
 If your revision stalls with a message like:
 

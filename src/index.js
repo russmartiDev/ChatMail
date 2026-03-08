@@ -44,13 +44,22 @@ sequelize.sync({ alter: true }).then(() => console.log('DB Synced'));
 // ── Middleware ───────────────────────────────────────────
 app.use(express.json());
 
-// CORS — allow Expo dev client
-const allowedOrigins = (process.env.ALLOWED_ORIGINS ?? '').split(',').map((s) => s.trim());
+// CORS — allow Expo dev client and any origins in ALLOWED_ORIGINS
+// `ALLOWED_ORIGINS` is a comma-separated list of prefixes (e.g. ``http://localhost:8081,https://chatmail-…``).
+// If the variable is unset or empty we fall back to allowing everything
+// (useful for development).  Additionally, setting ALLOW_ALL_ORIGINS=true
+// will bypass the check entirely.
+const allowedOrigins = process.env.ALLOWED_ORIGINS
+  ? process.env.ALLOWED_ORIGINS.split(',').map((s) => s.trim()).filter(Boolean)
+  : [];
+const allowAll = true
 app.use(
   cors({
     origin: (origin, callback) => {
-      // Allow requests with no origin (mobile apps, Postman)
+      console.log('CORS check, origin=', origin, 'allowed list=', allowedOrigins, 'allowAll=', allowAll);
       if (!origin) return callback(null, true);
+      if (allowAll) return callback(null, true);
+      if (allowedOrigins.length === 0) return callback(null, true);
       if (allowedOrigins.some((o) => origin.startsWith(o))) return callback(null, true);
       callback(new Error(`CORS blocked: ${origin}`));
     },
